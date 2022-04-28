@@ -109,7 +109,7 @@ ggplot(intertidal_richness,
        aes(x = year, y = richness, color = height)) +
   geom_point() + geom_line() +
   facet_wrap(vars(exposure, intertidal_transect)) +
-  scale_color_brewer(type = "qual") +
+  scale_color_brewer(palette = "Dark2") +
   stat_smooth()
 
 
@@ -135,7 +135,8 @@ height_est_rich <- emmeans(mod_height_sq,
                                        year_zeroed_sq = c(0:34)^2)) %>%
   broom::tidy(conf.int = TRUE) %>%
   filter(year_zeroed_sq == year_zeroed^2) %>%
-  mutate(year = year_zeroed + 1986) 
+  mutate(year = year_zeroed + 1986,
+         height = factor(height, levels = c("low", "mid", "high"))) 
 
 
 
@@ -149,5 +150,5 @@ ggplot(data = height_est_rich,
                   group = height),
               alpha = 0.1, color = "grey") +
   labs(x="", y = "estimated mobile\nspecies richness") +
-  scale_color_brewer(type = "qual") 
+  scale_color_brewer(palette = "Dark2") 
   
