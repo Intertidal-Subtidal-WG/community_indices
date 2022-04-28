@@ -1,69 +1,19 @@
 library(tidyverse)
 library(smldata)
-theme_set(theme_bw())
-source("helpers.R")
 
-# ----------------- Setup Intertidal Cover Data --------------- #
+theme_set(theme_bw())
+source("scripts/helpers.R")
+
+# ----------------- Setup Intertidal Count Data --------------- #
 
 data("sml_intertidal_count")
 
 # filter to consistently sampled transectsm, tide levels, and years
 count_dat <- sml_intertidal_count %>%
   filter_intertidal_for_analysis %>%
-  mutate(year_sq = year^2,
-         year_zeroed = year - 1986,
-         year_zeroed_sq = year_zeroed^2) %>%
-  #get rid of non-sessile species
-  filter(!(organism %in% #get out the sessile species
-             c("Anomia simplex",
-               "Aplidium",
-               "Crisia eburna",
-               "Diadumene lineata" ,
-               "Flustrellidra hispida",
-               "Halichondria",
-               "Metridium senile" ,
-               "Modiolus modiolus",
-               "Molgula",
-               "Mussel",
-               "Mytilus edulis" ,
-               "Ostrea edulis",
-               "Semibalanus balanoides",
-               "Spirorbis",
-               "Hiatella arctica",
-               "Mya arenaria"
-               ))) %>%
-  #things sampled in early 2000s in scrapes, but not elsewhere
-  filter(!(organism %in% c(
-    "Acoela",                            
-    "Cirratulus",                        
-    "Euplana",                           
-    "Lepidonotus",                       
-    "Lycastopsis",                      
-    "Micrura affinis",
-    "Nematodes",
-    "Nemertean",                         
-    "Nicolea",
-    "Notoplana",                                              
-    "Oligochaete",
-    "Ophiopholis",                       
-    "platyhelminthes",                   
-    "Polychaeta",
-    "Skeneopsis planorbis",              
-    "Turbellarid")))
+  filter_intertidal_for_mobile
 
-# 
-# POSSIBLE COUNT METHOD CHANGES OVERTIME
-# "Amphipoda"
-# "Anurida maritima"
-# "Colus stimpsoni"
-# "copepods"                          
-# "Gammarid"
-# "Halacarus"
-# "Idotea balthica"                   
-# "Idotea baltica"
-# "Isopods"                           
-# "Lacuna vincta"  
-
+# ----------------- Model with Exposure Only --------------- #
 
 # Richness by exposure, no height
 intertidal_count_richness <- count_dat %>%
@@ -129,7 +79,7 @@ ggplot(data = exposure_est_rich,
   scale_color_manual(values = c("orange", "purple")) 
   
 
-# ---------- Richness by exposure and height ---------
+# ----------------- Analysis with Exposure and Height --------------- #
 
 # Richness by height and exposure!
 intertidal_richness <- count_dat %>%
