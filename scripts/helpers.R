@@ -25,3 +25,61 @@ filter_intertidal_for_analysis <- . %>%
     TRUE ~ "high"),
         height = factor(height, levels = c("low", "mid", "high"))
       )
+
+
+### Filters out sessile species in count data
+### and inconsistently sampled species
+filter_intertidal_for_mobile <- . %>%
+  mutate(year_sq = year^2,
+         year_zeroed = year - 1986,
+         year_zeroed_sq = year_zeroed^2) %>%
+  #get rid of non-sessile species
+  filter(!(organism %in% #get out the sessile species
+             c("Anomia simplex",
+               "Aplidium",
+               "Crisia eburna",
+               "Diadumene lineata" ,
+               "Flustrellidra hispida",
+               "Halichondria",
+               "Metridium senile" ,
+               "Modiolus modiolus",
+               "Molgula",
+               "Mussel",
+               "Mytilus edulis" ,
+               "Ostrea edulis",
+               "Semibalanus balanoides",
+               "Spirorbis",
+               "Hiatella arctica",
+               "Mya arenaria"
+             ))) %>%
+  #things sampled in early 2000s in scrapes, but not elsewhere
+  filter(!(organism %in% c(
+    "Acoela",                            
+    "Cirratulus",                        
+    "Euplana",                           
+    "Lepidonotus",                       
+    "Lycastopsis",                      
+    "Micrura affinis",
+    "Nematodes",
+    "Nemertean",                         
+    "Nicolea",
+    "Notoplana",                                              
+    "Oligochaete",
+    "Ophiopholis",                       
+    "platyhelminthes",                   
+    "Polychaeta",
+    "Skeneopsis planorbis",              
+    "Turbellarid")))
+
+# 
+# POSSIBLE COUNT METHOD CHANGES OVERTIME
+# "Amphipoda"
+# "Anurida maritima"
+# "Colus stimpsoni"
+# "copepods"                          
+# "Gammarid"
+# "Halacarus"
+# "Idotea balthica"                   
+# "Idotea baltica"
+# "Isopods"                           
+# "Lacuna vincta"  
