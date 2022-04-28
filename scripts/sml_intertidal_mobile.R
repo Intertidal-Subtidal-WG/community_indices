@@ -13,6 +13,7 @@ count_dat <- sml_intertidal_count %>%
   mutate(year_sq = year^2,
          year_zeroed = year - 1986,
          year_zeroed_sq = year_zeroed^2) %>%
+  #get rid of non-sessile species
   filter(!(organism %in% #get out the sessile species
              c("Anomia simplex",
                "Aplidium",
@@ -27,8 +28,41 @@ count_dat <- sml_intertidal_count %>%
                "Mytilus edulis" ,
                "Ostrea edulis",
                "Semibalanus balanoides",
-               "Spirorbis"
-               )))
+               "Spirorbis",
+               "Hiatella arctica",
+               "Mya arenaria"
+               ))) %>%
+  #things sampled in early 2000s in scrapes, but not elsewhere
+  filter(!(organism %in% c(
+    "Acoela",                            
+    "Cirratulus",                        
+    "Euplana",                           
+    "Lepidonotus",                       
+    "Lycastopsis",                      
+    "Micrura affinis",
+    "Nematodes",
+    "Nemertean",                         
+    "Nicolea",
+    "Notoplana",                                              
+    "Oligochaete",
+    "Ophiopholis",                       
+    "platyhelminthes",                   
+    "Polychaeta",
+    "Skeneopsis planorbis",              
+    "Turbellarid")))
+
+# 
+# POSSIBLE COUNT METHOD CHANGES OVERTIME
+# "Amphipoda"
+# "Anurida maritima"
+# "Colus stimpsoni"
+# "copepods"                          
+# "Gammarid"
+# "Halacarus"
+# "Idotea balthica"                   
+# "Idotea baltica"
+# "Isopods"                           
+# "Lacuna vincta"  
 
 
 # Richness by exposure, no height
@@ -37,7 +71,8 @@ intertidal_count_richness <- count_dat %>%
   group_by(site, intertidal_transect, 
            year, year_sq, year_zeroed, year_zeroed_sq,
            exposure, measure) %>%
-  summarize(richness = n_distinct(organism, na.rm=TRUE))
+  summarize(richness = n_distinct(organism, na.rm=TRUE)) %>%
+  mutate()
 
 
 # plot!
@@ -96,7 +131,7 @@ ggplot(data = exposure_est_rich,
 
 # ---------- Richness by exposure and height ---------
 
-# Richness by exposure!
+# Richness by height and exposure!
 intertidal_richness <- count_dat %>%
   mutate(organism = ifelse(value==0, NA, organism)) %>% #so they are not counted, but rows are kept
   group_by(site, intertidal_transect, 
@@ -113,7 +148,7 @@ ggplot(intertidal_richness,
   stat_smooth()
 
 
-#exposure model
+#height model
 mod_height <- lm(richness ~ year_zeroed*exposure*height, 
                  data = intertidal_richness)
 
@@ -151,4 +186,25 @@ ggplot(data = height_est_rich,
               alpha = 0.1, color = "grey") +
   labs(x="", y = "estimated mobile\nspecies richness") +
   scale_color_brewer(palette = "Dark2") 
+
+###### - composition?
+sp_mobile <- count_dat %>%
+  group_by(year, height, exposure) %>%
+  filter(value != 0) %>%
+  distinct(organism) %>%
+  mutate(value = 1) %>%
+  ungroup() %>%
+  group_by(organism) %>%
+  mutate(count = sum(value)) %>%
+  ungroup() %>%
+  arrange(count) %>%
+  mutate(organism = forcats::fct_reorder(organism, count))
+  
+
+ggplot(sp_mobile, 
+       aes(y = organism,
+           x = year,
+           fill = value)) +
+  geom_tile() +
+  facet_wrap(vars(exposure, height)) 
   
