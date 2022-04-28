@@ -61,7 +61,7 @@ ggplot(intertidal_richness,
        aes(x = year, y = richness, color = height)) +
   geom_point() + geom_line() +
   facet_wrap(vars(exposure, intertidal_transect)) +
-  scale_color_brewer(type = "qual") +
+  scale_color_brewer(palette = "Dark2") +
   stat_smooth()
 
 
@@ -78,4 +78,5 @@ emtrends(mod_height, ~ height + exposure, "year") %>%
   geom_pointrange(position = position_dodge(width = 0.5),
                   size = 1) +
   geom_hline(yintercept = 0, lty = 2) +
-  scale_color_brewer(type = "qual") + coord_flip() 
+  scale_color_brewer(palette = "Dark2") +
+  coord_flip() 
