@@ -66,10 +66,10 @@ ggplot(intertidal_richness,
 
 
 #exposure model
-mod_height <- lm(richness ~ year*exposure*height, 
+mod_height <- lmer(richness ~ year*exposure*height + (1|intertidal_transect), 
           data = intertidal_richness)
 
-car::Anova(mod_height)
+car::Anova(mod_height, test = "F")
 emtrends(mod_height, ~ height + exposure, "year") %>%
   broom::tidy() %>%
   ggplot(aes(x = exposure, y = year.trend, color = height,
