@@ -65,6 +65,24 @@ make_jaccard_timeseries <- . %>%
                                jaccard = .x[,1]
                    ))) %>%
   unnest(j) %>%
-  mutate(year = as.numeric(year))%>% 
-  filter(year != 1986) #get rid of 1st year to reduce bias
+  mutate(year = as.numeric(year))
 
+
+## Function to get tidy hill number results
+# dat <- count_dat %>% filter(intertidal_transect==22, year == 1986,
+#                            replicate==1, level==10)
+get_hill <- function(dat,
+                     scales = 0:5){
+  
+  dat %>%
+    select(organism, value) %>%
+    group_by(organism) %>%
+    summarise(value = sum(value)) %>%
+    pivot_wider(names_from = organism,
+                values_from = value) %>%
+    renyi(hill = TRUE, scales = scales) %>%
+    tibble(tau = scales,
+           eff_div =.) %>%
+    mutate(eff_div = as.numeric(eff_div))
+  
+}
