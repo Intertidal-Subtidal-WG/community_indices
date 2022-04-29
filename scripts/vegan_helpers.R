@@ -51,6 +51,10 @@ make_jaccard_timeseries_intertidal <- . %>%
               values_fill = 0)  %>% #assume missing = 0
   group_by(site, intertidal_transect, 
            exposure, height) %>%
+  make_jaccard
+
+
+make_jaccard <- . %>%
   arrange(year) %>%
   nest() %>%
   mutate(
