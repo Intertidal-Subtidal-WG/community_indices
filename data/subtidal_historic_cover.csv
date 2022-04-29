@@ -1,0 +1,661 @@
+site,year,organism,perc_cover
+Appledore,1979,Neosiphonia harveyi,0
+Appledore,1990,Neosiphonia harveyi,0
+Appledore,1991,Neosiphonia harveyi,61.57
+Appledore,1992,Neosiphonia harveyi,79.35
+Appledore,1996,Neosiphonia harveyi,0
+Appledore,1997,Neosiphonia harveyi,32.14
+Appledore,1998,Neosiphonia harveyi,20.67
+Appledore,2001,Neosiphonia harveyi,30.5
+Appledore,2014,Neosiphonia harveyi,0
+Star Island,1977,Neosiphonia harveyi,0
+Star Island,1983,Neosiphonia harveyi,0
+Star Island,1984,Neosiphonia harveyi,0
+Star Island,1987,Neosiphonia harveyi,0
+Star Island,1994,Neosiphonia harveyi,0
+Star Island,1997,Neosiphonia harveyi,0
+Star Island,2000,Neosiphonia harveyi,3.5
+Star Island,2008,Neosiphonia harveyi,0
+Star Island,2011,Neosiphonia harveyi,0
+Star Island,2012,Neosiphonia harveyi,0
+Star Island,2015,Neosiphonia harveyi,0
+White Island,1998,Neosiphonia harveyi,12
+White Island,2007,Neosiphonia harveyi,6
+White Island,2008,Neosiphonia harveyi,36
+White Island,2009,Neosiphonia harveyi,8
+White Island,2010,Neosiphonia harveyi,46
+White Island,2012,Neosiphonia harveyi,0
+White Island,2013,Neosiphonia harveyi,0
+White Island,2014,Neosiphonia harveyi,0
+Lunging,1996,Neosiphonia harveyi,0
+Lunging,2014,Neosiphonia harveyi,0
+Appledore,1979,Dasysiphonia japonica,0
+Appledore,1990,Dasysiphonia japonica,0
+Appledore,1991,Dasysiphonia japonica,0
+Appledore,1992,Dasysiphonia japonica,0
+Appledore,1996,Dasysiphonia japonica,0
+Appledore,1997,Dasysiphonia japonica,0
+Appledore,1998,Dasysiphonia japonica,0
+Appledore,2001,Dasysiphonia japonica,0
+Appledore,2014,Dasysiphonia japonica,61.2
+Star Island,1977,Dasysiphonia japonica,0
+Star Island,1983,Dasysiphonia japonica,0
+Star Island,1984,Dasysiphonia japonica,0
+Star Island,1987,Dasysiphonia japonica,0
+Star Island,1994,Dasysiphonia japonica,0
+Star Island,1997,Dasysiphonia japonica,0
+Star Island,2000,Dasysiphonia japonica,0
+Star Island,2008,Dasysiphonia japonica,0
+Star Island,2011,Dasysiphonia japonica,0
+Star Island,2012,Dasysiphonia japonica,43.5
+Star Island,2015,Dasysiphonia japonica,82.21621622
+White Island,1998,Dasysiphonia japonica,0
+White Island,2007,Dasysiphonia japonica,0
+White Island,2008,Dasysiphonia japonica,0
+White Island,2009,Dasysiphonia japonica,0
+White Island,2010,Dasysiphonia japonica,0
+White Island,2012,Dasysiphonia japonica,46.4
+White Island,2013,Dasysiphonia japonica,98.7
+White Island,2014,Dasysiphonia japonica,56.6
+Lunging,1996,Dasysiphonia japonica,0
+Lunging,2014,Dasysiphonia japonica,73
+Appledore,1979,Saccharina latissima,40
+Appledore,1990,Saccharina latissima,53
+Appledore,1991,Saccharina latissima,14.83
+Appledore,1992,Saccharina latissima,9.17
+Appledore,1996,Saccharina latissima,0.45
+Appledore,1997,Saccharina latissima,0.45
+Appledore,1998,Saccharina latissima,0.9
+Appledore,2001,Saccharina latissima,0
+Appledore,2014,Saccharina latissima,9
+Star Island,1977,Saccharina latissima,6.694
+Star Island,1983,Saccharina latissima,26
+Star Island,1984,Saccharina latissima,47.5
+Star Island,1987,Saccharina latissima,0.363636364
+Star Island,1994,Saccharina latissima,85
+Star Island,1997,Saccharina latissima,6.9
+Star Island,2000,Saccharina latissima,13.28571429
+Star Island,2008,Saccharina latissima,2.8
+Star Island,2011,Saccharina latissima,1.5
+Star Island,2012,Saccharina latissima,0.2
+Star Island,2015,Saccharina latissima,2.743243243
+White Island,1998,Saccharina latissima,24
+White Island,2007,Saccharina latissima,0
+White Island,2008,Saccharina latissima,0.9
+White Island,2009,Saccharina latissima,2.3
+White Island,2010,Saccharina latissima,0
+White Island,2012,Saccharina latissima,3.3
+White Island,2013,Saccharina latissima,0.3
+White Island,2014,Saccharina latissima,13.5
+Lunging,1996,Saccharina latissima,0
+Lunging,2014,Saccharina latissima,0
+Appledore,1979,Chondrus crispus,53
+Appledore,1990,Chondrus crispus,0
+Appledore,1991,Chondrus crispus,0
+Appledore,1992,Chondrus crispus,0
+Appledore,1996,Chondrus crispus,0
+Appledore,1997,Chondrus crispus,0
+Appledore,1998,Chondrus crispus,0
+Appledore,2001,Chondrus crispus,0
+Appledore,2014,Chondrus crispus,4
+Star Island,1977,Chondrus crispus,70.19
+Star Island,1983,Chondrus crispus,25.7
+Star Island,1984,Chondrus crispus,8.3
+Star Island,1987,Chondrus crispus,0
+Star Island,1994,Chondrus crispus,0
+Star Island,1997,Chondrus crispus,0
+Star Island,2000,Chondrus crispus,11.42857143
+Star Island,2008,Chondrus crispus,13.9
+Star Island,2011,Chondrus crispus,15.5
+Star Island,2012,Chondrus crispus,14.6
+Star Island,2015,Chondrus crispus,2.837837838
+White Island,1998,Chondrus crispus,11
+White Island,2007,Chondrus crispus,38
+White Island,2008,Chondrus crispus,13
+White Island,2009,Chondrus crispus,16.9
+White Island,2010,Chondrus crispus,6.3
+White Island,2012,Chondrus crispus,12.5
+White Island,2013,Chondrus crispus,0
+White Island,2014,Chondrus crispus,7.5
+Lunging,1996,Chondrus crispus,0
+Lunging,2014,Chondrus crispus,0.6
+Appledore,1979,Cystoclonium purpureum,0
+Appledore,1990,Cystoclonium purpureum,0
+Appledore,1991,Cystoclonium purpureum,0
+Appledore,1992,Cystoclonium purpureum,0
+Appledore,1996,Cystoclonium purpureum,0
+Appledore,1997,Cystoclonium purpureum,0
+Appledore,1998,Cystoclonium purpureum,0
+Appledore,2001,Cystoclonium purpureum,0
+Appledore,2014,Cystoclonium purpureum,3.8
+Star Island,1977,Cystoclonium purpureum,0
+Star Island,1983,Cystoclonium purpureum,0
+Star Island,1984,Cystoclonium purpureum,0
+Star Island,1987,Cystoclonium purpureum,0
+Star Island,1994,Cystoclonium purpureum,0
+Star Island,1997,Cystoclonium purpureum,0
+Star Island,2000,Cystoclonium purpureum,0
+Star Island,2008,Cystoclonium purpureum,0
+Star Island,2011,Cystoclonium purpureum,0
+Star Island,2012,Cystoclonium purpureum,0.1
+Star Island,2015,Cystoclonium purpureum,0
+White Island,1998,Cystoclonium purpureum,0
+White Island,2007,Cystoclonium purpureum,0
+White Island,2008,Cystoclonium purpureum,0.2
+White Island,2009,Cystoclonium purpureum,0
+White Island,2010,Cystoclonium purpureum,0
+White Island,2012,Cystoclonium purpureum,0
+White Island,2013,Cystoclonium purpureum,0
+White Island,2014,Cystoclonium purpureum,2.7
+Lunging,1996,Cystoclonium purpureum,0
+Lunging,2014,Cystoclonium purpureum,1.2
+Appledore,1979,Codium fragile subsp. fragile,0
+Appledore,1990,Codium fragile subsp. fragile,2.7
+Appledore,1991,Codium fragile subsp. fragile,8.09
+Appledore,1992,Codium fragile subsp. fragile,4.72
+Appledore,1996,Codium fragile subsp. fragile,51.19
+Appledore,1997,Codium fragile subsp. fragile,60.49
+Appledore,1998,Codium fragile subsp. fragile,70.81
+Appledore,2001,Codium fragile subsp. fragile,66.8
+Appledore,2014,Codium fragile subsp. fragile,7.2
+Star Island,1977,Codium fragile subsp. fragile,0
+Star Island,1983,Codium fragile subsp. fragile,0
+Star Island,1984,Codium fragile subsp. fragile,0
+Star Island,1987,Codium fragile subsp. fragile,0
+Star Island,1994,Codium fragile subsp. fragile,0
+Star Island,1997,Codium fragile subsp. fragile,70
+Star Island,2000,Codium fragile subsp. fragile,40.5
+Star Island,2008,Codium fragile subsp. fragile,3.4
+Star Island,2011,Codium fragile subsp. fragile,1.5
+Star Island,2012,Codium fragile subsp. fragile,0.2
+Star Island,2015,Codium fragile subsp. fragile,0
+White Island,1998,Codium fragile subsp. fragile,28
+White Island,2007,Codium fragile subsp. fragile,5
+White Island,2008,Codium fragile subsp. fragile,4.9
+White Island,2009,Codium fragile subsp. fragile,1.9
+White Island,2010,Codium fragile subsp. fragile,0.3
+White Island,2012,Codium fragile subsp. fragile,0.6
+White Island,2013,Codium fragile subsp. fragile,0.1
+White Island,2014,Codium fragile subsp. fragile,0
+Lunging,1996,Codium fragile subsp. fragile,21.6
+Lunging,2014,Codium fragile subsp. fragile,0
+Appledore,1979,Filamentous red algae,0
+Appledore,1990,Filamentous red algae,35
+Appledore,1991,Filamentous red algae,0
+Appledore,1992,Filamentous red algae,0
+Appledore,1996,Filamentous red algae,6.78
+Appledore,1997,Filamentous red algae,0
+Appledore,1998,Filamentous red algae,0
+Appledore,2001,Filamentous red algae,0
+Appledore,2014,Filamentous red algae,0
+Star Island,1977,Filamentous red algae,0
+Star Island,1983,Filamentous red algae,0
+Star Island,1984,Filamentous red algae,0
+Star Island,1987,Filamentous red algae,0
+Star Island,1994,Filamentous red algae,0
+Star Island,1997,Filamentous red algae,0
+Star Island,2000,Filamentous red algae,0
+Star Island,2008,Filamentous red algae,0
+Star Island,2011,Filamentous red algae,0
+Star Island,2012,Filamentous red algae,0
+Star Island,2015,Filamentous red algae,0
+White Island,1998,Filamentous red algae,0
+White Island,2007,Filamentous red algae,0
+White Island,2008,Filamentous red algae,0
+White Island,2009,Filamentous red algae,0
+White Island,2010,Filamentous red algae,0
+White Island,2012,Filamentous red algae,0
+White Island,2013,Filamentous red algae,0
+White Island,2014,Filamentous red algae,0
+Lunging,1996,Filamentous red algae,0
+Lunging,2014,Filamentous red algae,0
+Appledore,1979,Desmarestia,0
+Appledore,1990,Desmarestia,0
+Appledore,1991,Desmarestia,0
+Appledore,1992,Desmarestia,0
+Appledore,1996,Desmarestia,0
+Appledore,1997,Desmarestia,0
+Appledore,1998,Desmarestia,0
+Appledore,2001,Desmarestia,0
+Appledore,2014,Desmarestia,9.7
+Star Island,1977,Desmarestia,0
+Star Island,1983,Desmarestia,2.7
+Star Island,1984,Desmarestia,1.1
+Star Island,1987,Desmarestia,31.72727273
+Star Island,1994,Desmarestia,1
+Star Island,1997,Desmarestia,0
+Star Island,2000,Desmarestia,0
+Star Island,2008,Desmarestia,0
+Star Island,2011,Desmarestia,0
+Star Island,2012,Desmarestia,1.9
+Star Island,2015,Desmarestia,0
+White Island,1998,Desmarestia,0
+White Island,2007,Desmarestia,6
+White Island,2008,Desmarestia,8
+White Island,2009,Desmarestia,4.9
+White Island,2010,Desmarestia,0
+White Island,2012,Desmarestia,0
+White Island,2013,Desmarestia,0
+White Island,2014,Desmarestia,1
+Lunging,1996,Desmarestia,0
+Lunging,2014,Desmarestia,0.5
+Appledore,1979,Alaria,0
+Appledore,1990,Alaria,0
+Appledore,1991,Alaria,0
+Appledore,1992,Alaria,0
+Appledore,1996,Alaria,0
+Appledore,1997,Alaria,0
+Appledore,1998,Alaria,0
+Appledore,2001,Alaria,0
+Appledore,2014,Alaria,0
+Star Island,1977,Alaria,0
+Star Island,1983,Alaria,0
+Star Island,1984,Alaria,0
+Star Island,1987,Alaria,0
+Star Island,1994,Alaria,2
+Star Island,1997,Alaria,6.9
+Star Island,2000,Alaria,0
+Star Island,2008,Alaria,0
+Star Island,2011,Alaria,0
+Star Island,2012,Alaria,0
+Star Island,2015,Alaria,0
+White Island,1998,Alaria,0
+White Island,2007,Alaria,0
+White Island,2008,Alaria,0
+White Island,2009,Alaria,0
+White Island,2010,Alaria,0
+White Island,2012,Alaria,0
+White Island,2013,Alaria,0
+White Island,2014,Alaria,0
+Lunging,1996,Alaria,0
+Lunging,2014,Alaria,0
+Appledore,1979,Bonnemaisonia,0
+Appledore,1990,Bonnemaisonia,0
+Appledore,1991,Bonnemaisonia,0
+Appledore,1992,Bonnemaisonia,0
+Appledore,1996,Bonnemaisonia,0
+Appledore,1997,Bonnemaisonia,0
+Appledore,1998,Bonnemaisonia,0
+Appledore,2001,Bonnemaisonia,0
+Appledore,2014,Bonnemaisonia,2.3
+Star Island,1977,Bonnemaisonia,0
+Star Island,1983,Bonnemaisonia,0
+Star Island,1984,Bonnemaisonia,0
+Star Island,1987,Bonnemaisonia,0
+Star Island,1994,Bonnemaisonia,0
+Star Island,1997,Bonnemaisonia,5
+Star Island,2000,Bonnemaisonia,32.78571429
+Star Island,2008,Bonnemaisonia,33.8
+Star Island,2011,Bonnemaisonia,26.9
+Star Island,2012,Bonnemaisonia,7
+Star Island,2015,Bonnemaisonia,0
+White Island,1998,Bonnemaisonia,0
+White Island,2007,Bonnemaisonia,19
+White Island,2008,Bonnemaisonia,19
+White Island,2009,Bonnemaisonia,5.5
+White Island,2010,Bonnemaisonia,25.4
+White Island,2012,Bonnemaisonia,30.6
+White Island,2013,Bonnemaisonia,0
+White Island,2014,Bonnemaisonia,7.4
+Lunging,1996,Bonnemaisonia,0
+Lunging,2014,Bonnemaisonia,4
+Appledore,1979,Ulva,0
+Appledore,1990,Ulva,0
+Appledore,1991,Ulva,0
+Appledore,1992,Ulva,0
+Appledore,1996,Ulva,0
+Appledore,1997,Ulva,0
+Appledore,1998,Ulva,0
+Appledore,2001,Ulva,0
+Appledore,2014,Ulva,0.5
+Star Island,1977,Ulva,0
+Star Island,1983,Ulva,0
+Star Island,1984,Ulva,0
+Star Island,1987,Ulva,0
+Star Island,1994,Ulva,0
+Star Island,1997,Ulva,0
+Star Island,2000,Ulva,0
+Star Island,2008,Ulva,0
+Star Island,2011,Ulva,0
+Star Island,2012,Ulva,2.7
+Star Island,2015,Ulva,0
+White Island,1998,Ulva,0
+White Island,2007,Ulva,19
+White Island,2008,Ulva,0.7
+White Island,2009,Ulva,0.1
+White Island,2010,Ulva,3.4
+White Island,2012,Ulva,0.2
+White Island,2013,Ulva,0
+White Island,2014,Ulva,0.3
+Lunging,1996,Ulva,0.36
+Lunging,2014,Ulva,0.1
+Appledore,1979,Agarum,0
+Appledore,1990,Agarum,0
+Appledore,1991,Agarum,0
+Appledore,1992,Agarum,0
+Appledore,1996,Agarum,0
+Appledore,1997,Agarum,0
+Appledore,1998,Agarum,0
+Appledore,2001,Agarum,0
+Appledore,2014,Agarum,0
+Star Island,1977,Agarum,0
+Star Island,1983,Agarum,0
+Star Island,1984,Agarum,0
+Star Island,1987,Agarum,0
+Star Island,1994,Agarum,0
+Star Island,1997,Agarum,0
+Star Island,2000,Agarum,0
+Star Island,2008,Agarum,0.1
+Star Island,2011,Agarum,0
+Star Island,2012,Agarum,0
+Star Island,2015,Agarum,0
+White Island,1998,Agarum,3.214285714
+White Island,2007,Agarum,0
+White Island,2008,Agarum,0
+White Island,2009,Agarum,0.8
+White Island,2010,Agarum,0
+White Island,2012,Agarum,0
+White Island,2013,Agarum,0
+White Island,2014,Agarum,0
+Lunging,1996,Agarum,0
+Lunging,2014,Agarum,0
+Appledore,1979,Porphyra,0
+Appledore,1990,Porphyra,0
+Appledore,1991,Porphyra,0
+Appledore,1992,Porphyra,0
+Appledore,1996,Porphyra,0
+Appledore,1997,Porphyra,0
+Appledore,1998,Porphyra,0
+Appledore,2001,Porphyra,0
+Appledore,2014,Porphyra,0
+Star Island,1977,Porphyra,0
+Star Island,1983,Porphyra,0
+Star Island,1984,Porphyra,0
+Star Island,1987,Porphyra,0
+Star Island,1994,Porphyra,0
+Star Island,1997,Porphyra,0
+Star Island,2000,Porphyra,0
+Star Island,2008,Porphyra,0
+Star Island,2011,Porphyra,0.5
+Star Island,2012,Porphyra,1.5
+Star Island,2015,Porphyra,0
+White Island,1998,Porphyra,0
+White Island,2007,Porphyra,0
+White Island,2008,Porphyra,3
+White Island,2009,Porphyra,5.5
+White Island,2010,Porphyra,1.2
+White Island,2012,Porphyra,0
+White Island,2013,Porphyra,0.4
+White Island,2014,Porphyra,0.7
+Lunging,1996,Porphyra,0
+Lunging,2014,Porphyra,0
+Appledore,1979,Corallina officinalis,0
+Appledore,1990,Corallina officinalis,0
+Appledore,1991,Corallina officinalis,0
+Appledore,1992,Corallina officinalis,0
+Appledore,1996,Corallina officinalis,0
+Appledore,1997,Corallina officinalis,0
+Appledore,1998,Corallina officinalis,0
+Appledore,2001,Corallina officinalis,0
+Appledore,2014,Corallina officinalis,0
+Star Island,1977,Corallina officinalis,4
+Star Island,1983,Corallina officinalis,9
+Star Island,1984,Corallina officinalis,0
+Star Island,1987,Corallina officinalis,0
+Star Island,1994,Corallina officinalis,0
+Star Island,1997,Corallina officinalis,0
+Star Island,2000,Corallina officinalis,13
+Star Island,2008,Corallina officinalis,6.2
+Star Island,2011,Corallina officinalis,19.2
+Star Island,2012,Corallina officinalis,8.9
+Star Island,2015,Corallina officinalis,2.1
+White Island,1998,Corallina officinalis,0
+White Island,2007,Corallina officinalis,12.8
+White Island,2008,Corallina officinalis,15
+White Island,2009,Corallina officinalis,31.3
+White Island,2010,Corallina officinalis,17.1
+White Island,2012,Corallina officinalis,5.7
+White Island,2013,Corallina officinalis,0
+White Island,2014,Corallina officinalis,4.6
+Lunging,1996,Corallina officinalis,0
+Lunging,2014,Corallina officinalis,0.4
+Appledore,1979,Substrate,0
+Appledore,1990,Substrate,0
+Appledore,1991,Substrate,0
+Appledore,1992,Substrate,0
+Appledore,1996,Substrate,0
+Appledore,1997,Substrate,0
+Appledore,1998,Substrate,0
+Appledore,2001,Substrate,0
+Appledore,2014,Substrate,12.6
+Star Island,1977,Substrate,0
+Star Island,1983,Substrate,0
+Star Island,1984,Substrate,0
+Star Island,1987,Substrate,0
+Star Island,1994,Substrate,0
+Star Island,1997,Substrate,0
+Star Island,2000,Substrate,0
+Star Island,2008,Substrate,4.9
+Star Island,2011,Substrate,6.8
+Star Island,2012,Substrate,4.5
+Star Island,2015,Substrate,0.4
+White Island,1998,Substrate,0
+White Island,2007,Substrate,4.2
+White Island,2008,Substrate,0.6
+White Island,2009,Substrate,1.4
+White Island,2010,Substrate,0.1
+White Island,2012,Substrate,1.3
+White Island,2013,Substrate,0.3
+White Island,2014,Substrate,0.9
+Lunging,1996,Substrate,61
+Lunging,2014,Substrate,1.3
+Appledore,1979,Invertebrates,0
+Appledore,1990,Invertebrates,0
+Appledore,1991,Invertebrates,0
+Appledore,1992,Invertebrates,0
+Appledore,1996,Invertebrates,0
+Appledore,1997,Invertebrates,0
+Appledore,1998,Invertebrates,0
+Appledore,2001,Invertebrates,0
+Appledore,2014,Invertebrates,0
+Star Island,1977,Invertebrates,2.2
+Star Island,1983,Invertebrates,11.4
+Star Island,1984,Invertebrates,0
+Star Island,1987,Invertebrates,0
+Star Island,1994,Invertebrates,5
+Star Island,1997,Invertebrates,5
+Star Island,2000,Invertebrates,23
+Star Island,2008,Invertebrates,23.2
+Star Island,2011,Invertebrates,28
+Star Island,2012,Invertebrates,3.7
+Star Island,2015,Invertebrates,9.5
+White Island,1998,Invertebrates,0
+White Island,2007,Invertebrates,6.2
+White Island,2008,Invertebrates,9
+White Island,2009,Invertebrates,6.5
+White Island,2010,Invertebrates,6.9
+White Island,2012,Invertebrates,5.9
+White Island,2013,Invertebrates,0
+White Island,2014,Invertebrates,2.9
+Lunging,1996,Invertebrates,2.2
+Lunging,2014,Invertebrates,0.1
+Appledore,1979,Dumontia,0
+Appledore,1990,Dumontia,0
+Appledore,1991,Dumontia,0
+Appledore,1992,Dumontia,0
+Appledore,1996,Dumontia,0
+Appledore,1997,Dumontia,0
+Appledore,1998,Dumontia,0
+Appledore,2001,Dumontia,0
+Appledore,2014,Dumontia,0
+Star Island,1977,Dumontia,0
+Star Island,1983,Dumontia,0
+Star Island,1984,Dumontia,0
+Star Island,1987,Dumontia,0
+Star Island,1994,Dumontia,0
+Star Island,1997,Dumontia,0
+Star Island,2000,Dumontia,0
+Star Island,2008,Dumontia,0
+Star Island,2011,Dumontia,0
+Star Island,2012,Dumontia,0
+Star Island,2015,Dumontia,0
+White Island,1998,Dumontia,0
+White Island,2007,Dumontia,0.2
+White Island,2008,Dumontia,0.4
+White Island,2009,Dumontia,0
+White Island,2010,Dumontia,0.9
+White Island,2012,Dumontia,0
+White Island,2013,Dumontia,0
+White Island,2014,Dumontia,0
+Lunging,1996,Dumontia,0
+Lunging,2014,Dumontia,0
+Appledore,1979,Crustose coralline algae,0
+Appledore,1990,Crustose coralline algae,0
+Appledore,1991,Crustose coralline algae,0
+Appledore,1992,Crustose coralline algae,0
+Appledore,1996,Crustose coralline algae,0
+Appledore,1997,Crustose coralline algae,0
+Appledore,1998,Crustose coralline algae,0
+Appledore,2001,Crustose coralline algae,0
+Appledore,2014,Crustose coralline algae,0
+Star Island,1977,Crustose coralline algae,0
+Star Island,1983,Crustose coralline algae,0
+Star Island,1984,Crustose coralline algae,0
+Star Island,1987,Crustose coralline algae,0
+Star Island,1994,Crustose coralline algae,0
+Star Island,1997,Crustose coralline algae,6.2
+Star Island,2000,Crustose coralline algae,0
+Star Island,2008,Crustose coralline algae,11.7
+Star Island,2011,Crustose coralline algae,0
+Star Island,2012,Crustose coralline algae,11
+Star Island,2015,Crustose coralline algae,0
+White Island,1998,Crustose coralline algae,0
+White Island,2007,Crustose coralline algae,9.3
+White Island,2008,Crustose coralline algae,4.1
+White Island,2009,Crustose coralline algae,14.8
+White Island,2010,Crustose coralline algae,20.7
+White Island,2012,Crustose coralline algae,2.7
+White Island,2013,Crustose coralline algae,0.2
+White Island,2014,Crustose coralline algae,0
+Lunging,1996,Crustose coralline algae,0
+Lunging,2014,Crustose coralline algae,0
+Appledore,1979,Polysiphonia,0
+Appledore,1990,Polysiphonia,0
+Appledore,1991,Polysiphonia,0
+Appledore,1992,Polysiphonia,0
+Appledore,1996,Polysiphonia,0
+Appledore,1997,Polysiphonia,0
+Appledore,1998,Polysiphonia,0
+Appledore,2001,Polysiphonia,0
+Appledore,2014,Polysiphonia,0.5
+Star Island,1977,Polysiphonia,0
+Star Island,1983,Polysiphonia,0
+Star Island,1984,Polysiphonia,0
+Star Island,1987,Polysiphonia,0
+Star Island,1994,Polysiphonia,0
+Star Island,1997,Polysiphonia,0
+Star Island,2000,Polysiphonia,0
+Star Island,2008,Polysiphonia,0
+Star Island,2011,Polysiphonia,0
+Star Island,2012,Polysiphonia,0
+Star Island,2015,Polysiphonia,0
+White Island,1998,Polysiphonia,0
+White Island,2007,Polysiphonia,0
+White Island,2008,Polysiphonia,0
+White Island,2009,Polysiphonia,8.4
+White Island,2010,Polysiphonia,0
+White Island,2012,Polysiphonia,0.2
+White Island,2013,Polysiphonia,0
+White Island,2014,Polysiphonia,0
+Lunging,1996,Polysiphonia,14.9
+Lunging,2014,Polysiphonia,0
+Appledore,1979,Laminaria digitata,0
+Appledore,1990,Laminaria digitata,0
+Appledore,1991,Laminaria digitata,0
+Appledore,1992,Laminaria digitata,0
+Appledore,1996,Laminaria digitata,0
+Appledore,1997,Laminaria digitata,0
+Appledore,1998,Laminaria digitata,0
+Appledore,2001,Laminaria digitata,0
+Appledore,2014,Laminaria digitata,0
+Star Island,1977,Laminaria digitata,2.9
+Star Island,1983,Laminaria digitata,12.2
+Star Island,1984,Laminaria digitata,10.5
+Star Island,1987,Laminaria digitata,0
+Star Island,1994,Laminaria digitata,6
+Star Island,1997,Laminaria digitata,0
+Star Island,2000,Laminaria digitata,0
+Star Island,2008,Laminaria digitata,0
+Star Island,2011,Laminaria digitata,0
+Star Island,2012,Laminaria digitata,0
+Star Island,2015,Laminaria digitata,0
+White Island,1998,Laminaria digitata,0
+White Island,2007,Laminaria digitata,0
+White Island,2008,Laminaria digitata,0
+White Island,2009,Laminaria digitata,0
+White Island,2010,Laminaria digitata,0
+White Island,2012,Laminaria digitata,0
+White Island,2013,Laminaria digitata,0
+White Island,2014,Laminaria digitata,1.1
+Lunging,1996,Laminaria digitata,0
+Lunging,2014,Laminaria digitata,0
+Appledore,1979,Antithamnion,0
+Appledore,1990,Antithamnion,0
+Appledore,1991,Antithamnion,0
+Appledore,1992,Antithamnion,0
+Appledore,1996,Antithamnion,0
+Appledore,1997,Antithamnion,0
+Appledore,1998,Antithamnion,0
+Appledore,2001,Antithamnion,0
+Appledore,2014,Antithamnion,0
+Star Island,1977,Antithamnion,0
+Star Island,1983,Antithamnion,3.5
+Star Island,1984,Antithamnion,5.1
+Star Island,1987,Antithamnion,0
+Star Island,1994,Antithamnion,0
+Star Island,1997,Antithamnion,0
+Star Island,2000,Antithamnion,0
+Star Island,2008,Antithamnion,0
+Star Island,2011,Antithamnion,0
+Star Island,2012,Antithamnion,0
+Star Island,2015,Antithamnion,0
+White Island,1998,Antithamnion,0
+White Island,2007,Antithamnion,0
+White Island,2008,Antithamnion,0
+White Island,2009,Antithamnion,0
+White Island,2010,Antithamnion,0
+White Island,2012,Antithamnion,0
+White Island,2013,Antithamnion,0
+White Island,2014,Antithamnion,0
+Lunging,1996,Antithamnion,0
+Lunging,2014,Antithamnion,0
+Appledore,1979,Phyllophora,0
+Appledore,1990,Phyllophora,0
+Appledore,1991,Phyllophora,0
+Appledore,1992,Phyllophora,0
+Appledore,1996,Phyllophora,0
+Appledore,1997,Phyllophora,0
+Appledore,1998,Phyllophora,0
+Appledore,2001,Phyllophora,0
+Appledore,2014,Phyllophora,0
+Star Island,1977,Phyllophora,0
+Star Island,1983,Phyllophora,9
+Star Island,1984,Phyllophora,0
+Star Island,1987,Phyllophora,0
+Star Island,1994,Phyllophora,0.5
+Star Island,1997,Phyllophora,0
+Star Island,2000,Phyllophora,0
+Star Island,2008,Phyllophora,0
+Star Island,2011,Phyllophora,0
+Star Island,2012,Phyllophora,0
+Star Island,2015,Phyllophora,0
+White Island,1998,Phyllophora,0
+White Island,2007,Phyllophora,0
+White Island,2008,Phyllophora,0
+White Island,2009,Phyllophora,0
+White Island,2010,Phyllophora,0
+White Island,2012,Phyllophora,0
+White Island,2013,Phyllophora,0
+White Island,2014,Phyllophora,0
+Lunging,1996,Phyllophora,0
+Lunging,2014,Phyllophora,0
