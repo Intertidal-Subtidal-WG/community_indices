@@ -24,7 +24,7 @@ count_dat <- sml_intertidal_count %>%
 # ----------------- Create Jaccard Timeseries --------------- #
 count_jaccard <- count_dat %>%
   filter(height != "high") %>%
-  make_jaccard_timeseries %>%
+  make_jaccard_timeseries_intertidal %>%
   mutate(year_zeroed = year - 1986,
          year_zeroed_sq = year_zeroed^2) %>% 
   filter(year != 1986) #get rid of 1st year to reduce bias

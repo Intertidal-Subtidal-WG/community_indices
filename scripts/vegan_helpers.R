@@ -38,7 +38,7 @@ remove_null_rows <- function(adf){
 }
 
 
-make_jaccard_timeseries <- . %>%
+make_jaccard_timeseries_intertidal <- . %>%
   group_by(site, intertidal_transect, 
            replicate, year, exposure, level, height, organism) %>%
   summarize(value = sum(value, na.rm=TRUE)) %>%

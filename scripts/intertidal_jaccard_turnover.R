@@ -21,7 +21,7 @@ cover_dat <- sml_intertidal_cover %>%
 
 intertidal_turnover <- cover_dat %>%
   filter(height != "high") %>%
-  make_jaccard_timeseries %>% 
+  make_jaccard_timeseries_intertidal %>% 
   filter(year != 1986) #get rid of 1st year to reduce bias
 
 
