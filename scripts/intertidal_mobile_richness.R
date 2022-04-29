@@ -31,7 +31,8 @@ ggplot(intertidal_count_richness,
   geom_point() + geom_line() +
   facet_wrap(vars(exposure, intertidal_transect)) +
   scale_color_manual(values = c("orange", "purple")) +
-  stat_smooth(method = "lm")
+  stat_smooth(method = "lm",
+              formula = y~poly(x,2))
 
 
 
@@ -109,7 +110,7 @@ mod_height_sq <- lm(richness ~ year_zeroed*exposure*height +
 
 AIC(mod_height, mod_height_sq)
 
-car::Anova(mod_height_sq)
+car::Anova(mod_height_sq, test = "F")
 
 
 #model predictions
