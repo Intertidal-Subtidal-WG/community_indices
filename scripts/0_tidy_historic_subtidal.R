@@ -29,3 +29,10 @@ cover <- cover_raw %>%
 
 
 readr::write_csv(cover, "data/subtidal_historic_cover.csv")
+
+
+#
+ggplot(cover,
+       aes(x = year, y = perc_cover, color = site)) +
+  geom_line() + geom_point() +
+  facet_wrap(vars(organism), scale = "free_y")
